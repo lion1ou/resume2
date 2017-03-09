@@ -48,7 +48,6 @@ export default {
     border-radius: .5em;
 }
 
-
 /* 作为程序员的编辑器，没有代码高亮怎么行？ */
 
 .token.comment {
