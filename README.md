@@ -2,8 +2,7 @@
 
 > A animating Resume
 
-## Build Setup
-
+## 部署操作
 ``` bash
 # install dependencies
 npm install
@@ -14,8 +13,9 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 注意事项：
+
+1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 `项目名/dist`。
+2. 开启Github Page
