@@ -170,7 +170,7 @@ html {
 
 ### 个人项目
 
-* 动画简历(本项目)[源码](https://github.com/lion1ou/resume)
+* 动画简历(本项目)[源码](https://github.com/lion1ou/resume2)
 * 在线简历模板 [源码](https://github.com/lion1ou/resume)
 * TodoList [源码](https://github.com/lion1ou/TodoList)
 * 鸿福茶产业官网 [官网](http://www.fdshfccy.com/)
