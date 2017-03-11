@@ -177,13 +177,13 @@ html {
 
 ## 技能栈
 
-- 前端技术：JavaScript / CSS3 / HTML5 / AJAX / ES6
-- Web开发：NodeJS / Koa / Express / JavaWeb
-- 前端框架：Bootstrap / Material / AngularJS / Ionic / VueJS
-- 前端工具：Gulp / webpack / grunt / SaSS / LeSS / PhoneGap
-- 数据库相关：MySQL / MongoDB
-- 版本管理、文档管理：Git / markdown
-- 工作平台：Mac / Windows
+- 前端技术：JavaScript/CSS3/HTML5/AJAX/ES6/
+- Web开发：NodeJS/Koa/Express/JavaWeb
+- 前端框架：Bootstrap/Material/AngularJS/Ionic/VueJS
+- 前端工具：Gulp/Webpack/LeSS/PhoneGap
+- 数据库相关：MySQL/MongoDB
+- 版本管理、文档管理：Git/Markdown
+- 工作平台：Mac/Windows
 
 `
         }
