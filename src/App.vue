@@ -20,16 +20,16 @@ export default {
             currentStyle: '',
             currentMarkdown: '',
             enableHtml: false,
-            myStyle: [`/* Hello!  I'm lion1ou. 
-* 
-*  又到了一年招聘季，正所谓金三银四
-*  
-*  作为一个正想跳槽的前端er，怎么可以错过这个机会呢？
-*  
+            myStyle: [`/* Hello!  I'm lion1ou.
+*
+*  又到了一年招聘季
+*
+*  作为一个正想跳槽的前端er
+*
 *  要跳槽那肯定得有份简历吧！
-* 
-*  不是说那么多，说写就写！
-* 
+*
+*  不说那么多了，说写就写！
+*
 */
 
 
@@ -90,7 +90,7 @@ html {
 /* 接下来给自己准备一个MarkDown编辑器 */
 
 .resumeEditor {
-    position: fixed; right: 0; top: 0; 
+    position: fixed; right: 0; top: 0;
     width: 48vw; height: 95vh;
     padding: 1em;
     margin: .5em;
@@ -116,7 +116,7 @@ html {
 `,
                 `
 /* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
+ * 对了，这是 Markdown 格式的，我需要变成对HR小姐姐更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `,
@@ -149,41 +149,50 @@ html {
     content: '•';
     margin-right: .75em;
 }
+
+.resumeEditor a:visited {
+    color: #000;
+}
+
+/*
+ *   先写到这吧，
+ *   需求查看详细简历
+ *   请移步： http://lion1ou.win/resume/
+ */
 `
             ],
             myMarkdown: `# 罗德忠/lion1ou
 
 ## 个人信息
 
+- 罗德忠/1992.7/本科
+- 工作年限：3年
 - 个人博客：[http://lion1ou.win](http://lion1ou.win)
 - Github：[https://github.com/lion1ou](https://github.com/lion1ou)
-- 详细简历：[http://lion1ou.win/resume/](http://lion1ou.win/resume/)
-- Email：lion1ou@163.com 
+- Email：lion1ou@163.com
 
 ## 项目经验
 
-### 上海建坤信息技术有限责任公司（2015.3 - 至今）
+### 杭州乐刻网络技术有限公司（2017.3 - 至今）
 
-* 建坤大型智慧园区管理平台 -- 工作流管理系统模块 
-* ble蓝牙环境监测APP、后端Node数据管理平台
-* 气象博物馆自动导览APP [下载链接](http://61.152.122.103/distribute/index.html)
+* [乐刻运动教练端](https://h5.leoao.com/coach/#/coach/index/todo)
+* [乐刻运动用户端](https://h5.leoao.com/mStation/?#/)
+* [乐刻活动页项目](https://h5.leoao.com/multiple/punchCard/transcript.html?outerId=1496619)
 
-### 个人项目
+### 上海建坤信息技术有限责任公司（2015.3 - 2017.3）
 
-* 动画简历(本项目)[源码](https://github.com/lion1ou/resume2)
-* 在线简历模板 [源码](https://github.com/lion1ou/resume)
-* TodoList [源码](https://github.com/lion1ou/TodoList)
-* 鸿福茶产业官网 [官网](http://www.fdshfccy.com/)
+* 建坤大型智慧园区管理平台 -- 工作流管理系统模块
+* ble蓝牙环境监测APP
+* 气象博物馆自动导览APP
 
-## 技能栈
+## 个人项目
 
-- 前端技术：JavaScript/CSS3/HTML5/AJAX/ES6/
-- Web开发：NodeJS/Koa/Express/JavaWeb
-- 前端框架：Bootstrap/Material/AngularJS/Ionic/VueJS
-- 前端工具：Gulp/Webpack/LeSS/PhoneGap
-- 数据库相关：MySQL/MongoDB
-- 版本管理、文档管理：Git/Markdown
-- 工作平台：Mac/Windows
+* 简历模板： [静态页面简历模板](https://github.com/lion1ou/resume) 、[动态加载简历模板](https://github.com/lion1ou/resume2)
+* 知识沉淀： [GitBook 项目](https://github.com/lion1ou/gitbook)、[个人博客](http://lion1ou.win)
+* 工具库：[ltools](https://github.com/lion1ou/ltools)，[gulp脚手架](https://github.com/lion1ou/gulp_generator)
+
+## 致谢
+感谢您花时间阅读我的简历，期待能有机会和您共事。
 
 `
         }
