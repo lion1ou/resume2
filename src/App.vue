@@ -161,12 +161,13 @@ html {
  */
 `
             ],
-            myMarkdown: `# 罗德忠/lion1ou
+            myMarkdown: `# 罗德忠 - 前端开发工程师
 
 ## 个人信息
 
 - 罗德忠/1992.7/本科
 - 工作年限：3年
+- 求职意向：前端开发工程师
 - 个人博客：[http://lion1ou.win](http://lion1ou.win)
 - Github：[https://github.com/lion1ou](https://github.com/lion1ou)
 - Email：lion1ou@163.com
